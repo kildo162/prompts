@@ -79,7 +79,7 @@ function setLoading(isLoading) {
 async function loadPrompts() {
     try {
         setLoading(true);
-        const response = await fetch('prompts/categories/all.json');
+        const response = await fetch('/prompts/categories/all.json');
         const data = await response.json();
         prompts = data.prompts;
         displayedPrompts = 0;
