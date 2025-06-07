@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A curated collection of AI prompts organized by categories for easy access and reference">
+    <title>AI Prompts Collection</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>AI Prompts Collection</h1>
+            </div>
+            <div class="search-container">
+                <input type="search" id="search-input" placeholder="Search prompts...">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <nav class="categories">
+                <h2>Categories</h2>
+                <ul id="category-list">
+                    <li><a href="#" data-category="all" class="active">All Prompts</a></li>
+                    <li><a href="#" data-category="coding">Coding</a></li>
+                    <li><a href="#" data-category="writing">Writing</a></li>
+                    <li><a href="#" data-category="analysis">Analysis</a></li>
+                    <li><a href="#" data-category="creative">Creative</a></li>
+                    <li><a href="#" data-category="business">Business</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <div class="view-controls">
+                <button id="grid-view" class="view-toggle active">
+                    <i class="fas fa-th-large"></i>
+                </button>
+                <button id="list-view" class="view-toggle">
+                    <i class="fas fa-list"></i>
+                </button>
+            </div>
+            <div id="prompts-container" class="grid-view">
+                <!-- Prompts will be dynamically loaded here -->
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <p>© 2024 AI Prompts Collection</p>
+            <div class="footer-links">
+                <a href="https://github.com/yourusername/prompts" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="#" id="contribute-link">
+                    <i class="fas fa-plus-circle"></i> Contribute
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

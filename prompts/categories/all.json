@@ -1,0 +1,44 @@
+{
+  "prompts": [
+    {
+      "title": "Code Review Assistant",
+      "category": "coding",
+      "content": "Please review this code for potential issues, bugs, and areas for improvement. Consider: \n- Code quality and best practices\n- Performance optimizations\n- Security concerns\n- Readability and maintainability"
+    },
+    {
+      "title": "Technical Documentation Writer",
+      "category": "writing",
+      "content": "Please help me write technical documentation for [project/feature]. Include:\n- Overview and purpose\n- Installation/setup instructions\n- Usage examples\n- API reference\n- Common troubleshooting steps"
+    },
+    {
+      "title": "Data Analysis Helper",
+      "category": "analysis",
+      "content": "Analyze this dataset and provide insights on:\n- Key trends and patterns\n- Statistical significance\n- Correlations between variables\n- Potential actionable recommendations\n- Areas for further investigation"
+    },
+    {
+      "title": "Creative Writing Story Starter",
+      "category": "creative",
+      "content": "Help me write a creative story with these elements:\n- Genre: [genre]\n- Main character: [description]\n- Setting: [setting]\n- Central conflict: [conflict]\nFocus on engaging dialogue and vivid descriptions."
+    },
+    {
+      "title": "Business Strategy Advisor",
+      "category": "business",
+      "content": "Please analyze this business situation and provide strategic recommendations:\n- Market analysis\n- Competitive advantages\n- Growth opportunities\n- Potential risks\n- Action plan with timeline"
+    },
+    {
+      "title": "Code Refactoring Guide",
+      "category": "coding",
+      "content": "Help me refactor this code to improve:\n- Code organization\n- Design patterns implementation\n- Error handling\n- Testing coverage\n- Documentation"
+    },
+    {
+      "title": "Content Optimization",
+      "category": "writing",
+      "content": "Please help optimize this content for:\n- SEO best practices\n- Readability and engagement\n- Target audience alignment\n- Call-to-action effectiveness\n- Keywords integration"
+    },
+    {
+      "title": "Problem-Solving Framework",
+      "category": "analysis",
+      "content": "Guide me through solving this problem using:\n- Problem definition\n- Root cause analysis\n- Solution alternatives\n- Decision criteria\n- Implementation plan"
+    }
+  ]
+}
