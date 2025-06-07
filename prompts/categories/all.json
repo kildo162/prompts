@@ -39,6 +39,65 @@
       "title": "Problem-Solving Framework",
       "category": "analysis",
       "content": "Guide me through solving this problem using:\n- Problem definition\n- Root cause analysis\n- Solution alternatives\n- Decision criteria\n- Implementation plan"
+    },{
+      "title": "Architecture Design Assistant",
+      "category": "coding",
+      "content": "Help me design a software architecture for [project type]. Consider:\n1. System Requirements:\n   - Scalability needs\n   - Performance requirements\n   - Security considerations\n2. Architecture Patterns:\n   - Recommend suitable patterns (e.g., microservices, monolithic, event-driven)\n   - Justify the choices\n3. Technology Stack:\n   - Backend technologies\n   - Frontend frameworks\n   - Databases\n   - Third-party services\n4. System Components:\n   - Core modules\n   - Interfaces\n   - Data flow\n5. Infrastructure:\n   - Deployment strategy\n   - Monitoring solutions\n   - Backup plans"
+    },
+    {
+      "title": "Code Review Expert",
+      "category": "coding",
+      "content": "Please review this code with focus on:\n1. Code Quality:\n   - Clean code principles\n   - SOLID principles\n   - Design patterns usage\n2. Performance:\n   - Time complexity\n   - Space complexity\n   - Resource usage\n3. Security:\n   - Input validation\n   - Authentication/Authorization\n   - Data protection\n4. Testing:\n   - Unit test coverage\n   - Integration test scenarios\n   - Edge cases\n5. Documentation:\n   - Code comments\n   - API documentation\n   - Usage examples"
+    },
+    {
+      "title": "Database Schema Designer",
+      "category": "coding",
+      "content": "Help design a database schema for [project]. Consider:\n1. Requirements Analysis:\n   - Data entities\n   - Relationships\n   - Business rules\n2. Schema Design:\n   - Tables structure\n   - Foreign keys\n   - Indexes\n3. Optimization:\n   - Normalization\n   - Denormalization trade-offs\n   - Query performance\n4. Data Types:\n   - Appropriate type selection\n   - Storage efficiency\n   - Performance impact\n5. Scaling Strategy:\n   - Partitioning approach\n   - Replication strategy\n   - Backup procedures"
+    },
+    {
+      "title": "API Design Guide",
+      "category": "coding",
+      "content": "Help design a RESTful API for [service]. Include:\n1. Endpoint Design:\n   - Resource naming\n   - HTTP methods\n   - URL structure\n2. Request/Response:\n   - Data formats\n   - Status codes\n   - Error handling\n3. Authentication:\n   - Auth mechanism\n   - Token management\n   - Permission levels\n4. Documentation:\n   - OpenAPI/Swagger spec\n   - Usage examples\n   - Rate limiting\n5. Best Practices:\n   - Versioning strategy\n   - Caching strategy\n   - Security measures"
+    },
+    {
+      "title": "CI/CD Pipeline Designer",
+      "category": "coding",
+      "content": "Design a CI/CD pipeline for [project]. Include:\n1. Source Control:\n   - Branching strategy\n   - Code review process\n   - Version control best practices\n2. Build Process:\n   - Build tools\n   - Dependency management\n   - Artifact creation\n3. Testing Strategy:\n   - Unit testing\n   - Integration testing\n   - E2E testing\n4. Deployment:\n   - Environment setup\n   - Rollback procedures\n   - Blue-green deployment\n5. Monitoring:\n   - Logging strategy\n   - Performance metrics\n   - Alert configuration"
+    },
+    {
+      "title": "Test Automation Framework",
+      "category": "coding",
+      "content": "Help design a test automation framework. Consider:\n1. Framework Architecture:\n   - Design patterns\n   - Reusability\n   - Maintainability\n2. Test Structure:\n   - Test organization\n   - Data management\n   - Configuration handling\n3. Reporting:\n   - Test results\n   - Coverage metrics\n   - Performance data\n4. CI Integration:\n   - Pipeline integration\n   - Parallel execution\n   - Resource management\n5. Best Practices:\n   - Code standards\n   - Documentation\n   - Review process"
+    },
+    {
+      "title": "Code Generator Assistant",
+      "category": "coding",
+      "content": "Generate code for [component/feature]. Include:\n1. Base Structure:\n   - File organization\n   - Dependencies\n   - Configuration\n2. Implementation:\n   - Core functionality\n   - Error handling\n   - Logging\n3. Tests:\n   - Unit tests\n   - Integration tests\n   - Mocking strategy\n4. Documentation:\n   - Code comments\n   - Usage examples\n   - API docs\n5. Quality Checks:\n   - Linting rules\n   - Code style\n   - Best practices"
+    },
+    {
+      "title": "Performance Optimization Guide",
+      "category": "coding",
+      "content": "Analyze and optimize performance for [component]. Focus on:\n1. Analysis:\n   - Performance metrics\n   - Bottlenecks\n   - Resource usage\n2. Optimization Areas:\n   - Algorithm efficiency\n   - Memory management\n   - Network calls\n3. Caching Strategy:\n   - Cache levels\n   - Invalidation rules\n   - Storage options\n4. Load Testing:\n   - Test scenarios\n   - Benchmarking\n   - Stress testing\n5. Monitoring:\n   - Performance metrics\n   - Alert thresholds\n   - Logging strategy"
+    },
+    {
+      "title": "Security Review Expert",
+      "category": "coding",
+      "content": "Review security aspects of [project/component]. Include:\n1. Authentication:\n   - Auth mechanisms\n   - Password policies\n   - Session management\n2. Authorization:\n   - Access control\n   - Role management\n   - Permission hierarchy\n3. Data Protection:\n   - Encryption methods\n   - Data handling\n   - Privacy compliance\n4. Security Testing:\n   - Vulnerability scanning\n   - Penetration testing\n   - Security audit\n5. Best Practices:\n   - Secure coding\n   - Error handling\n   - Logging standards"
+    },
+    {
+      "title": "Microservices Architecture",
+      "category": "coding",
+      "content": "Design microservices architecture for [system]. Consider:\n1. Service Boundaries:\n   - Domain definition\n   - Service responsibilities\n   - Interface design\n2. Communication:\n   - Sync/async patterns\n   - API gateway\n   - Event bus\n3. Data Management:\n   - Database per service\n   - Data consistency\n   - Transaction handling\n4. Deployment:\n   - Containerization\n   - Orchestration\n   - Service mesh\n5. Operational:\n   - Monitoring\n   - Tracing\n   - Fault tolerance"
+    },
+    {
+      "title": "Code Refactoring Guide",
+      "category": "coding",
+      "content": "Guide for refactoring [component]. Focus on:\n1. Code Analysis:\n   - Technical debt\n   - Complexity metrics\n   - Design issues\n2. Refactoring Steps:\n   - Pattern implementation\n   - Code organization\n   - Interface design\n3. Testing Strategy:\n   - Test coverage\n   - Regression testing\n   - Performance impact\n4. Documentation:\n   - Architecture changes\n   - API updates\n   - Migration guide\n5. Quality Assurance:\n   - Code review\n   - Static analysis\n   - Performance testing"
+    },
+    {
+      "title": "DevOps Automation",
+      "category": "coding",
+      "content": "Help automate [process/task]. Include:\n1. Process Analysis:\n   - Current workflow\n   - Pain points\n   - Success metrics\n2. Automation Strategy:\n   - Tool selection\n   - Script development\n   - Integration points\n3. Implementation:\n   - Script creation\n   - Error handling\n   - Logging/monitoring\n4. Testing:\n   - Validation steps\n   - Edge cases\n   - Recovery procedures\n5. Documentation:\n   - Setup guide\n   - Maintenance tasks\n   - Troubleshooting"
     }
   ]
 }

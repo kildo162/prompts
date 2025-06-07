@@ -3,67 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A curated collection of AI prompts organized by categories for easy access and reference">
-    <title>AI Prompts Collection</title>
+    <meta name="description" content="Discover our curated collection of professional AI prompts for software development, technical writing, and business analysis. Enhance your productivity with expert-crafted prompts.">
+    <meta name="keywords" content="AI prompts, software development, programming prompts, technical writing, business analysis, code review, software architecture">
+    <meta name="author" content="AI Prompts Collection">
+    <meta property="og:title" content="AI Prompts Collection - Professional Prompts for Developers">
+    <meta property="og:description" content="Access expert-curated AI prompts for software development, technical writing, and business analysis. Boost your productivity with our comprehensive collection.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>AI Prompts Collection | Professional Development Resources</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="canonical" href="https://yourwebsite.com">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AI Prompts Collection",
+      "description": "Professional AI prompts for software development and technical tasks",
+      "url": "https://yourwebsite.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://yourwebsite.com/?search={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
 </head>
 <body>
     <header>
         <div class="header-container">
             <div class="logo">
                 <h1>AI Prompts Collection</h1>
+                <p class="tagline">Expert-Curated Prompts for Professional Development</p>
             </div>
             <div class="search-container">
-                <input type="search" id="search-input" placeholder="Search prompts...">
+                <input type="search" id="search-input" placeholder="Search prompts..." 
+                       aria-label="Search prompts">
                 <i class="fas fa-search search-icon"></i>
             </div>
-            <button id="theme-toggle" class="theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
                 <i class="fas fa-moon"></i>
             </button>
         </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#contribute">Contribute</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h2>Enhance Your Development Workflow</h2>
+            <p>Access professional-grade AI prompts curated by industry experts</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Expert Prompts</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Categories</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">5000+</span>
+                    <span class="stat-label">Daily Users</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="main-container">
         <aside class="sidebar">
-            <nav class="categories">
+            <nav class="categories" id="categories">
                 <h2>Categories</h2>
                 <ul id="category-list">
                     <li><a href="#" data-category="all" class="active">All Prompts</a></li>
-                    <li><a href="#" data-category="coding">Coding</a></li>
-                    <li><a href="#" data-category="writing">Writing</a></li>
-                    <li><a href="#" data-category="analysis">Analysis</a></li>
-                    <li><a href="#" data-category="creative">Creative</a></li>
-                    <li><a href="#" data-category="business">Business</a></li>
+                    <li><a href="#" data-category="coding">Software Development</a></li>
+                    <li><a href="#" data-category="architecture">System Architecture</a></li>
+                    <li><a href="#" data-category="devops">DevOps & CI/CD</a></li>
+                    <li><a href="#" data-category="testing">Testing & QA</a></li>
+                    <li><a href="#" data-category="security">Security</a></li>
+                    <li><a href="#" data-category="database">Database Design</a></li>
                 </ul>
             </nav>
+
+            <div class="sidebar-info">
+                <h3>Why Trust Us?</h3>
+                <ul class="trust-points">
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        Expert-Reviewed Content
+                    </li>
+                    <li>
+                        <i class="fas fa-sync"></i>
+                        Regular Updates
+                    </li>
+                    <li>
+                        <i class="fas fa-users"></i>
+                        Community Driven
+                    </li>
+                </ul>
+            </div>
         </aside>
 
         <main class="content">
-            <div class="view-controls">
-                <button id="grid-view" class="view-toggle active">
-                    <i class="fas fa-th-large"></i>
-                </button>
-                <button id="list-view" class="view-toggle">
-                    <i class="fas fa-list"></i>
-                </button>
+            <div class="content-header">
+                <div class="view-controls">
+                    <button id="grid-view" class="view-toggle active" aria-label="Grid view">
+                        <i class="fas fa-th-large"></i>
+                    </button>
+                    <button id="list-view" class="view-toggle" aria-label="List view">
+                        <i class="fas fa-list"></i>
+                    </button>
+                </div>
+                <div class="sort-controls">
+                    <select id="sort-select" aria-label="Sort prompts">
+                        <option value="popular">Most Popular</option>
+                        <option value="recent">Most Recent</option>
+                        <option value="az">A-Z</option>
+                    </select>
+                </div>
             </div>
+
             <div id="prompts-container" class="grid-view">
                 <!-- Prompts will be dynamically loaded here -->
+            </div>
+
+            <div class="pagination">
+                <button id="load-more" class="load-more-btn">
+                    Load More Prompts
+                    <i class="fas fa-chevron-down"></i>
+                </button>
             </div>
         </main>
     </div>
 
+    <section class="newsletter-section">
+        <div class="newsletter-container">
+            <h3>Stay Updated</h3>
+            <p>Get the latest prompts and best practices delivered to your inbox</p>
+            <form id="newsletter-form" class="newsletter-form">
+                <input type="email" placeholder="Enter your email" aria-label="Email for newsletter">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
     <footer>
         <div class="footer-container">
-            <p>© 2024 AI Prompts Collection</p>
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>A community-driven collection of professional AI prompts to enhance your development workflow.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#contribute">Contribute</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername/prompts" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 AI Prompts Collection. All rights reserved.</p>
             <div class="footer-links">
-                <a href="https://github.com/yourusername/prompts" target="_blank">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-                <a href="#" id="contribute-link">
-                    <i class="fas fa-plus-circle"></i> Contribute
-                </a>
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Use</a>
             </div>
         </div>
     </footer>
